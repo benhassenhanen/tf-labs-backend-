@@ -1,7 +1,7 @@
 #RESSOURCE 'RESOURECE_TYPE' 'RESOURCE_NAME'
 resource "aws_s3_bucket" "ta_backend_bucket" {
   bucket = "ta-terraform-tfstates-781892149061"
-
+ # META-DATA
   lifecycle {
       prevent_destroy = true
     }
